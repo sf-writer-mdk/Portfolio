@@ -1,0 +1,269 @@
+html {
+    box-sizing: border-box;
+    background: black;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.background {
+    background: url("webdev-training.png");
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    /*z-index: -1;*/
+}
+
+.header {
+background-color: #b4bb72;
+padding: 8px 16px;
+position: fixed;
+top: 0;
+margin: 0;
+width: 100%;
+height: 120px;
+box-sizing: border-box;
+left: 0;
+/*background: url("webdev-training.png");
+width: 100%;
+height: 100%;
+position: fixed;*/
+}
+
+.header > div {
+    display: inline-block;
+    vertical-align: middle;
+    position: fixed;
+    height: 100px;
+    width: 827px;
+
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo-img {
+   background: url(myProject_initial_working_copy_Copy.png) no-repeat top left;
+   width: 175px;
+   height: 175px;
+   margin: 0px 0px;
+   position: relative;
+   bottom: 35px;
+   right: 45;
+}
+
+/*.logo-anchor {
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}*/
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 61px);
+    vertical-align: middle;
+    margin-top: 40px;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    /*list-style: none;*/
+    font-family: sans-serif;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+    text-decoration: none;
+    list-style: none;
+} 
+
+.main-nav__item a {
+    
+    /*margin: 0 16px;*/
+    background:#b4bb72;
+    color: #287f37;
+    font-weight: bold;
+    padding: 3px 0;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px;
+
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #287f37 ;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: red;
+    border: none;
+    background: white;
+}
+
+h1 {
+    color: gray;
+    /*background-color: blue;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sections {
+    width: 100%;
+    height: auto; 
+    text-align: center;
+}
+
+.webdev {
+    background: url("webdev-training.png");
+    background-size: cover;
+    width: 100%;
+    height: 555px;
+    background-repeat: no-repeat;
+}
+
+.webdev h1 {
+    color:#287f37;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 45px auto;
+    padding: 175px 0 100px;
+    font-size: 35px;
+}
+
+/*.webdev h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 45px auto;
+    padding: 175px 0 120px;
+    font-size: 35px;
+}*/
+
+.webdev h2 {
+    color:#287f37;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.about {
+    width: 100%;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+    background:#b4bb72;
+    padding-top: 25px;
+}
+
+.about h1 {
+        color: black;
+    }
+
+}
+.education {
+    width: 100%;
+    height: 400px;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    padding-top: 25px;
+}
+
+.edu_h1 {
+    color: #287f37;
+}
+
+.edu_h5 {
+    color: #287f37;
+}
+
+.edu_anchor {
+    color: #287f37;
+    text-decoration: none;
+}
+
+.classes {
+    width: 100%;
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    background: #b4bb72;
+    padding-top: 25px;
+}
+
+.classes h1 {
+    color: black;
+}
+
+.classes a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    width: 100%;
+    height: 600px;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    padding-top: 25px;
+}
+
+.projects h1 {
+    color: #287f37;
+}
+
+/*using Flexbox for row and column*/
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25.00%;
+    padding: 5px;
+  }
+
+  .technologies {
+      width: 100%;
+      height: 500px;
+      font-family: 'Montserrat', sans-serif;
+      background: #b4bb72;
+      padding-top: 25px;
+}
+
+  .technologies h1 {
+        color: black;
+  }
+
+.contact {
+    width: 100%;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+    padding-top: 25px;
+}
+
+.contact h1 {
+    color: #287f37;
+}
+
+.footer {
+    display: inline-block;
+    margin: 50px auto;
+    background: #b4bb72;
+}
+
+
+
+
