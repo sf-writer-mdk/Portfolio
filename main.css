@@ -225,33 +225,66 @@ h1 {
 }
 
 /*using Flexbox for row and column*/
-.row {
+.projects_row {
     display: flex;
   }
   
-  .column {
+.projects_column {
     flex: 25.00%;
     padding: 5px;
   }
 
-  .technologies {
-      width: 100%;
-      height: 500px;
-      font-family: 'Montserrat', sans-serif;
-      background: #b4bb72;
-      padding-top: 25px;
+ .technologies {
+    width: 100%;
+    height: 850px;
+    font-family: 'Montserrat', sans-serif;
+    background: #b4bb72;
+    padding-top: 25px;
 }
 
-  .technologies h1 {
-        color: black;
+.technologies h1 {
+    color: black;
+  }
+
+  /*using Flexbox for row1 and column1*/
+.tech_row1 {
+    display: flex;
+    flex: wrap;
+}
+  
+.tech_column1 {
+    flex: 25.00%;
+    padding: 5px;
+  }
+
+ /*using Flexbox for row2 and column2*/
+ .tech_row2 {
+    display: flex;
+    flex: wrap;
+ }
+  
+  .tech_column2 {
+    flex: 25.00%;
+    padding: 5px;
+  }
+
+  /*using Flexbox for row3 and column3*/
+  .tech_row3 {
+      display: flex;
+      flex: wrap;
+  }
+
+  .tech_column3 {
+      flex: 25.00%;
+      padding: 5px;
   }
 
 .contact {
-    width: 100%;
+     width: 100%;
     height: 300px;
     font-family: 'Montserrat', sans-serif;
     background: black;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .contact h1 {
