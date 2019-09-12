@@ -5,11 +5,13 @@
     <link rel = "stylesheet" href = "main.css">
     <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat&display=swap" rel="stylesheet">
     <title>Capstone Project</title>
-    <link rel="icon" type="image/png" href="myProject_initial_working_copy_Copy.png"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!-- <link rel="icon" type="image/png" href="myProject_initial_working_copy_Copy.png"/> -->
 </head>
 
 <body>
-    <div> class = "background"</div>
+    <div class = "backdrop"></div>
+    <div class = "background"></div>
     <header class="header">
         <div class="logo">
             <!-- <a href = "index.html" class="logo-img">Logo</a> -->
@@ -53,10 +55,14 @@
 
     <main class="sections">
 
+      <!--trying to make a backdrop- h elements are removed though-->  
+    <!--<div class = "background">-->
+    
         <section id="webdev" class="webdev">
             <h1>Web Developer in Training</h1>
             <h2>Home of my Capstone Project</h2>
         </section>
+    
 
         <section id="about" class="about">
             <h1>About</h1>
@@ -261,6 +267,27 @@
         
         <section id="contact" class="contact">
             <h1>Contact</h1>
+
+            <!--<form action="index.html" class="signup-form">-->
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+            <button type="submit" class="button">Sign Up</button>
+        </form>
         </section>
 
 
