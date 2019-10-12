@@ -11,8 +11,22 @@
 
 <body>
     <div class = "backdrop"></div>
+    <!--<div class="modal">
+            <h1 class="modal__title">Would you like to contact me?</h1>
+            <div class="modal__actions">
+                <a href="#contact" class="modal__action">Yes!</a>
+                <button class="modal__action modal__action--negative" type="button">No!</button>
+            </div>
+        </div>-->
     <div class = "background"></div>
     <header class="header">
+        <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+        </div>
         <div class="logo">
             <!-- <a href = "index.html" class="logo-img">Logo</a> -->
             <img src="myProject_initial_working_copy_Copy.png" class="logo-img" alt="Logo"/> 
@@ -52,6 +66,32 @@
             
         </nav>
     </header>
+
+    <nav class="mobile-nav">
+            <ul class="mobile-nav__items">
+                <li class="mobile-nav__item">
+                    <a href="#home">home</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#about">about</a>
+                </li>
+                <li class="mobile-nav__item">
+                        <a href="#education">education</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#classes">classes</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#projects">projects</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#technologies">technologies</a>
+                </li>
+                <li class="mobile-nav__item mobile-nav__item--cta">
+                    <a href="#contact">contact</a>
+                </li>
+            </ul>
+        </nav>
 
     <main class="sections">
 
@@ -266,28 +306,28 @@
 
         
         <section id="contact" class="contact">
-            <h1>Contact</h1>
+            <h1>Contact Me!</h1>
 
-            <!--<form action="index.html" class="signup-form">-->
-            <label for="title">Title</label>
-            <select id="title">
-                <option value="mr">Mr.</option>
-                <option value="ms">Ms.</option>
-            </select>
-            <label for="first-name">First name</label>
-            <input type="text" id="first-name">
-            <label for="last-name">Last name</label>
-            <input type="text" id="last-name">
-            <label for="email">E-Mail</label>
-            <input type="email" id="email">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-            <input type="checkbox" id="agree-terms">
-            <label for="agree-terms">Agree to
-                <a href="#">Terms &amp; Conditions</a>
-            </label>
-            <button type="submit" class="button">Sign Up</button>
-        </form>
+            <form action="index.html" class="signup-form">
+                <label for="title">Title</label>
+                <select id="title">
+                    <option value="mr">Mr.</option>
+                    <option value="ms">Ms.</option>
+                </select>
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <input type="checkbox" id="agree-terms">
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms &amp; Conditions</a>
+                    </label>
+                <button type="submit" class="button">Sign Up</button>
+            </form>
         </section>
 
 
@@ -298,5 +338,7 @@
         <span>Twitter</span>
         <span>Facebook</span>
     </footer>
+
+    <script src="app.js"></script>
 
 </body>
