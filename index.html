@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name = "viewport" content="width-device-width, initial-scale=1.0">
@@ -10,29 +11,12 @@
 </head>
 
 <body>
-    <div class = "backdrop"></div>
-    <!--<div class="modal">
-            <h1 class="modal__title">Would you like to contact me?</h1>
-            <div class="modal__actions">
-                <a href="#contact" class="modal__action">Yes!</a>
-                <button class="modal__action modal__action--negative" type="button">No!</button>
-            </div>
-        </div>-->
-    <div class = "background"></div>
+    
     <header class="header">
-        <div>
-            <button class="toggle-button">
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-                <span class="toggle-button__bar"></span>
-            </button>
-        </div>
+        
         <div class="logo">
-            <!-- <a href = "index.html" class="logo-img">Logo</a> -->
             <img src="myProject_initial_working_copy_Copy.png" class="logo-img" alt="Logo"/> 
-            <!-- <a href="/index.html"><img src="myProject_initial_working_copy_Copy.png" alt="logo" /></a> -->
         </div>
-
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
@@ -63,49 +47,21 @@
                     <a href="#contact">contact</a>
                 </li>
             </ul>
-            
         </nav>
+        </div>
+
     </header>
 
-    <nav class="mobile-nav">
-            <ul class="mobile-nav__items">
-                <li class="mobile-nav__item">
-                    <a href="#home">home</a>
-                </li>
-                <li class="mobile-nav__item">
-                    <a href="#about">about</a>
-                </li>
-                <li class="mobile-nav__item">
-                        <a href="#education">education</a>
-                </li>
-                <li class="mobile-nav__item">
-                    <a href="#classes">classes</a>
-                </li>
-                <li class="mobile-nav__item">
-                    <a href="#projects">projects</a>
-                </li>
-                <li class="mobile-nav__item">
-                    <a href="#technologies">technologies</a>
-                </li>
-                <li class="mobile-nav__item mobile-nav__item--cta">
-                    <a href="#contact">contact</a>
-                </li>
-            </ul>
-        </nav>
-
     <main class="sections">
-
-      <!--trying to make a backdrop- h elements are removed though-->  
-    <!--<div class = "background">-->
-    
+        <div class="background">
         <section id="webdev" class="webdev">
             <h1>Web Developer in Training</h1>
             <h2>Home of my Capstone Project</h2>
         </section>
+        </div>
     
-
         <section id="about" class="about">
-            <h1>About</h1>
+            <h1 class="offset">About</h1>
             <h3>Hi! I'm Marvin</h3>
             <p>A self-learning web developer in training</p>
             <p>Let me show you what I'm learning</p>
@@ -180,7 +136,7 @@
 
             <br></br>
 
-            <a href="https://www.udemy.com/the-complete-nodejs-developer-course-2/">The Complete Node.js Developer Course - 3rd Edition</a>
+            <a class="last__class" href="https://www.udemy.com/the-complete-nodejs-developer-course-2/">The Complete Node.js Developer Course - 3rd Edition</a>
         </section>
 
         
@@ -191,19 +147,19 @@
             <!--for flexbox images-->
             <div class="projects_row">
                 <div class="projects_column">
-                    <img src="images/react.90552fc5.png" alt="Snow" style="width:100%">
+                    <img src="images/lab2.png" alt="lab" style="width:100%">
                 </div>
 
                 <div class="projects_column">
-                    <img src="images/react.90552fc5.png" alt="Forest" style="width:100%">
+                    <img src="images/odyssey.png" alt="portfolio" style="width:100%">
                 </div>
 
                 <div class="projects_column">
-                    <img src="images/react.90552fc5.png" alt="Mountains" style="width:100%">
+                    <img src="images/webdev-training.png" alt="web Development" style="width:100%">
                 </div>
 
                 <div class="projects_column">
-                    <img src="images/react.90552fc5.png" alt="Mountains" style="width:100%">
+                    <img src="images/volunteer1.png" alt="volunteering" style="width:100%">
                 </div>
 
             </div>
@@ -218,91 +174,84 @@
 
             <!--for flexbox tech icons-->
             <div class="tech_row1">
-
                 <div class="tech_column1">
-                    <img src="images/html5.png" alt="html5" style="width:50%">
+                    <img src="images/html5.png" alt="html5">
                 </div>
 
                 <div class="tech_column1">
-                    <img src="images/CSS3_logo_and_wordmark.svg.png" alt="Forest" style="width:50%">
+                    <img src="images/CSS3_logo_and_wordmark.svg.png" alt="Forest">
                 </div>
 
                 <div class="tech_column1">
-                    <img src="images/javascript.2efd4312.png" alt="Mountains" style="width:50%">
+                    <img src="images/sass.png" alt="Forest">
+                </div>
+    
+                <div class="tech_column1">
+                    <img src="images/flexbox2.png" alt="Mountains">
+                </div>
+            </div>
+
+
+                <div class="tech_row2">
+                    <div class="tech_column2">
+                        <img src="images/flexbox2.png" alt="Mountains">
+                    </div>
+    
+                    <div class="tech_column2">
+                        <img src="images/javascript.2efd4312.png" alt="Mountains">
+                    </div>
+    
+                    <div class="tech_column2">
+                        <img src="images/jquery.94849b40.png" alt="jQuery">
+                    </div>
+
+                    <div class="tech_column2">
+                        <img src="images/react.90552fc5.png" alt="Snow">
+                    </div>
                 </div>
 
-                <div class="tech_column1">
-                    <img src="images/jquery.94849b40.png" alt="jQuery" style="width:50%">
+                <div class="tech_row3">
+                
+                    <div class="tech_column3">
+                        <img src="images/redux.f18023dc.png" alt="Forest">
+                    </div>
+
+                    <div class="tech_column3">
+                        <img src="images/nodejs.d42672d4.png" alt="Mountains">
+                    </div>
+
+                    <div class="tech_column3">
+                        <img src="images/express.png" alt="Mountains">
+                    </div>
+
+                    <div class="tech_column3">
+                        <img src="images/mongodb.9d1d550a.png" alt="Snow">
+                    </div>
+                </div>
+
+
+            <div class="tech_row4">
+
+                <div class="tech_column4">
+                        <img src="images/graphql.png" alt="Mountains">
+                </div>
+
+                <div class="tech_column4">
+                    <img src="images/npm.png" alt="Forest">
+                </div>
+
+                <div class="tech_column4">
+                    <img src="images/webpack.png" alt="Mountains">
+                </div>
+
+                <div class="tech_column4">
+                    <img src="images/gulp.png" alt="Mountains">
                 </div>
 
             </div>
 
 
-            <div class="tech_row2">
-
-                <div class="tech_column2">
-                    <img src="images/react.90552fc5.png" alt="Snow" style="width:50%">
-                </div>
-
-                <div class="tech_column2">
-                    <img src="images/redux.f18023dc.png" alt="Forest" style="width:50%">
-                </div>
-
-                <div class="tech_column2">
-                    <img src="images/nodejs.d42672d4.png" alt="Mountains" style="width:50%">
-                </div>
-
-                <div class="tech_column2">
-                    <img src="images/express.png" alt="Mountains" style="width:50%">
-                </div>
-
-            </div>
-
-
-            <div class="tech_row3">
-
-                <div class="tech_column3">
-                    <img src="images/mongodb.9d1d550a.png" alt="Snow" style="width:50%">
-                </div>
-
-                <div class="tech_column3">
-                    <img src="images/npm.png" alt="Forest" style="width:50%">
-                </div>
-
-                <div class="tech_column3">
-                    <img src="images/nodejs.d42672d4.png" alt="Mountains" style="width:50%">
-                </div>
-
-                <div class="tech_column3">
-                    <img src="images/react.90552fc5.png" alt="Mountains" style="width:50%">
-                </div>
-
-            </div>
-
-
-            <div class="tech_row3">
-
-                <div class="tech_column3">
-                    <img src="images/react.90552fc5.png" alt="Snow" style="width:50%">
-                </div>
-    
-                <div class="tech_column3">
-                    <img src="images/redux.f18023dc.png" alt="Forest" style="width:50%">
-                </div>
-    
-                <div class="tech_column3">
-                    <img src="images/nodejs.d42672d4.png" alt="Mountains" style="width:50%">
-                </div>
-    
-                <div class="tech_column3">
-                    <img src="images/react.90552fc5.png" alt="Mountains" style="width:50%">
-                </div>
-    
-            </div>
-    
-
-
-        </section>
+    </section>
 
         
         <section id="contact" class="contact">
@@ -315,30 +264,57 @@
                     <option value="ms">Ms.</option>
                 </select>
                 <label for="first-name">First name</label>
-                <input type="text" id="first-name">
+                <input type="text" id="first-name" required>
                 <label for="last-name">Last name</label>
-                <input type="text" id="last-name">
+                <input type="text" id="last-name" required>
                 <label for="email">E-Mail</label>
-                <input type="email" id="email">
+                <input type="email" id="email" required>
                 <label for="password">Password</label>
-                <input type="password" id="password">
-                <input type="checkbox" id="agree-terms">
+                <input type="password" id="password" required>
+                <input type="checkbox" id="agree-terms" required>
                 <label for="agree-terms">Agree to
                     <a href="#">Terms &amp; Conditions</a>
-                    </label>
+                </label>
                 <button type="submit" class="button">Sign Up</button>
             </form>
+        
         </section>
-
 
     </main>
 
+    <div class="exp-footer">
 
-    <footer class="footer">
-        <span>Twitter</span>
-        <span>Facebook</span>
+    <footer class="main-footer">
+
+            <nav class="nav-footer">
+                    <ul class="soc-sites">
+                        <li class="soc-site">
+                            <a href="GitHub.html">GitHub</a>
+                        </li>
+        
+                         <li class="soc-site">
+                             <a href="Facebook.html">Facebook</a>
+                        </li>
+        
+                        <li class="soc-site">
+                            <a href="Twitter.html">Twitter</a>
+                        </li>
+                            
+                        <li class="soc-site" >
+                            <a href="SomeSite.html">Some Site</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+        <!--<div class="social-cont">
+
+        <span class="site">Twitter</span>
+        <span class="site">Facebook</span>
+        <span class="site">GitHub</span>
+
+        </div>--> 
     </footer>
-
-    <script src="app.js"></script>
-
+    </div>
 </body>
+</html>
