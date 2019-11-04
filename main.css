@@ -90,7 +90,7 @@ body {
 
  .logo-img {
    background: url(myProject_initial_working_copy_Copy.png) no-repeat top left;
-   width: 7.8rem;
+   width: 15rem;
    /*height: 7.8rem;
    margin: 0px 0px;
    position: relative;
@@ -98,7 +98,7 @@ body {
    right: 45;  */
 } 
 
-@media (min-width: 40rem); {
+@media (min-width: 40rem) {
     .logo img {
         background: url(myProject_initial_working_copy_Copy.png) no-repeat top left;
         width: 7.8rem; 
@@ -185,20 +185,22 @@ body {
 .main-nav__item a {
     /*margin: 0 16px;*/
     background: #b4bb72;
-    color: #287f37;
+    color: black;
     font-weight: bold;
     padding: .019rem 0;
     text-decoration: none;
+    font-size: 1.15rem;
 }
 
 @media (min-width: 40rem) {
     .main-nav__item a {
         /*margin: 0 16px;*/
         background: #b4bb72;
-        color: #287f37;
+        color: black;
         font-weight: bold;
         padding: .019rem 0;
         text-decoration: none;
+        font-size: 1.15rem;
         /*position: absolute;
         left: 0px;
         top: -136px;*/
@@ -207,12 +209,12 @@ body {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-    color: black;
+    color: #287f37;
 }
 
 .main-nav__item--cta a {
-    color:#287f37;
-    background: black;
+    color: black;
+    background: #287f37;
     padding: .5rem 1rem;
     border-radius: .5rem;
 }
@@ -220,9 +222,9 @@ body {
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active { 
 
-    color:white;
+    color: #287f37;
     border: none;
-    background: #287f37;
+    background: black;
 }
 
 h1 {
@@ -243,8 +245,6 @@ h1 {
 
 .sections {
     width: 100%;
-    /* height: auto;  */
-    /* margin-top: 7.5rem; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -259,51 +259,22 @@ h1 {
 /* } ********************************
 */
 
-/*.webdev {
-    background: url("webdev-training.png");
-    background-size: cover;
-    width: 100%;
-    height: 34.7rem;
-    /*check main code to add padding
-    /* padding: ; */
-    
-    /* background-repeat: no-repeat; */
-    /* backface-visibility: hidden; */
-/* }  */
 
 .webdev {
     background-image: url("webdev-training.png");
     background-size: cover;
     /* width: 100%; */
     height: 34.7rem; 
+
     /*check main code to add padding
     padding: ;
     */
     backface-visibility: hidden;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
-/*@media (min-width: 40rem) {
-    .webdev {
-        background: url("webdev-training.png");
-        background-size: cover;
-        width: 100%;
-        height: 34.7rem;
-        background-repeat: no-repeat;
-        padding: 30.3rem 0 0 0;
-        backface-visibility: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /*justify-content: space-between;
-        align-content: space-between;*/
-        /* flex-wrap: wrap; */
-    /* } */
-/* } */
 
 
 @media (min-width: 40rem) {
@@ -313,7 +284,6 @@ h1 {
         /* width: 100%; */
         height: 34.7rem;
         background-repeat: no-repeat;
-        /* padding: 30.3rem 0 0 0; */
         backface-visibility: hidden;
         display: flex;
         flex-direction: column;
@@ -325,37 +295,11 @@ h1 {
     }
 }
 
-
-
-/*.webdev h1 {
-    color:#287f37;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    animation-name: moveInLeft;
-    animation-duration: 2s;
-}
-
-
-.webdev h2 {
-    color:#287f37;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;  
-
-    animation-name: moveInRight;
-    animation-duration: 2s;
-}*/
-
-
-
-
-
 .webdev h1 {
     color:#287f37;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     animation-name: moveInLeft;
     animation-duration: 2s;
 }
@@ -365,39 +309,12 @@ h1 {
     color:#287f37;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;  
+    font-size: 3rem;  
 
     animation-name: moveInRight;
     animation-duration: 2s;
 }
 
-
-
-/*@media (min-width: 40rem) {
-    .webdev h1 {
-        color:#287f37;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        margin: 2.8rem auto;
-        padding: 4.7rem 0 3.1rem;
-        font-size: 3rem;
-
-        animation-name: moveInLeft;
-        animation-duration: 2s;
-    }
-
-    .webdev h2 {
-        color:#287f37;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        margin: 2.8rem auto;
-        padding: 4.7rem 0 3.1rem;
-        font-size: 3rem;
-
-        animation-name: moveInRight;
-        animation-duration: 2s;
-    }
-}*/
 
 
 @media (min-width: 40rem) {
@@ -540,6 +457,12 @@ h1 {
     color: #287f37;
 }
 
+.pro-desc {
+    display: block;
+    color: #287f37;
+    padding: 10px 0 30px 0;
+}
+
 /*using Flexbox for row and column*/
 .projects_row {
     display: flex;
@@ -567,6 +490,12 @@ h1 {
     color: #287f37;
 }
 
+.pro-desc {
+    display: block;
+    color: #287f37;
+    padding: 20px 0 10px 0;
+}
+
 /*using Flexbox for row and column*/
 .projects_row {
     display: flex;
@@ -590,15 +519,13 @@ h1 {
     color: black;
   }
 
-  /*using Flexbox for row1 and column1*/
+  /*using Flexbox for row1 and column1 - column1 is
+  good for all columns/items in row1*/
 .tech_row1 {
-    display: flex;
-    flex: wrap;
     display: block;
 }
   
 .tech_column1 {
-    flex: 25.00%;
     padding: 15px;
   }
 
@@ -610,13 +537,10 @@ h1 {
 
  /*using Flexbox for row2 and column2*/
  .tech_row2 {
-    display: flex;
-    flex: wrap;
     display: block;
  }
   
   .tech_column2 {
-    flex: 25.00%;
     padding: 15px;
   }
 
@@ -626,13 +550,10 @@ h1 {
 
   /*using Flexbox for row3 and column3*/
   .tech_row3 {
-      display: flex;
-      /* flex: wrap; */
       display: block;
   }
 
   .tech_column3 {
-      flex: 25.00%;
       padding: 15px;
   }
 
@@ -643,13 +564,10 @@ h1 {
 
   /*using Flexbox for row4 and column4*/
 .tech_row4 {
-    display: flex;
-    /* flex: wrap; */
     display: block;
 }
   
 .tech_column4 {
-    flex: 25.00%;
     padding: 15px;
 }
 
@@ -673,18 +591,8 @@ h1 {
     .technologies h1 {
         color: black;
       }
-    
-      /*using Flexbox for row1 and column1*/
-    .tech_row1 {
-        display: flex;
-        /* flex: wrap; */
-    }
-      
-    .tech_column1 {
-        flex: 25.00%;
-        padding: 5px;
-    }
 
+      /* for each column in each row */
     .tech_column1 img {
         width: 40%;
     }
@@ -702,39 +610,46 @@ h1 {
     }
 
     
-    
-     /*using Flexbox for row2 and column2*/
+      /*using Flexbox for row1 and column1*/
+    .tech_row1 {
+        display: flex; 
+    }
+
+    .tech_column1 { 
+        flex: 25.00%;
+        padding: 5px;
+    } 
+      
      .tech_row2 {
         display: flex;
-        /* flex: wrap; */
      }
       
-      .tech_column2 {
+       .tech_column2 { 
         flex: 25.00%;
         padding: 5px;
-      }
+      } 
     
-      /*using Flexbox for row3 and column3*/
       .tech_row3 {
           display: flex;
-          flex: wrap;
       }
     
-      .tech_column3 {
+       .tech_column3 {
           flex: 25.00%;
           padding: 5px;
-      }
-    
-      /*using Flexbox for row4 and column4*/
-    .tech_row4 {
-        display: flex;
-        flex: wrap;
-    }
-      
-    .tech_column4 {
-        flex: 25.00%;
-        padding: 5px;
-    }
+      } 
+
+        .tech_row4 {
+            display: flex;
+        }
+        
+         .tech_column4 {
+            flex: 25.00%;
+            padding: 5px;
+        } 
+
+        .tech_rows {
+            padding: 1rem 0 1rem 0;
+        }
 }
 
 
@@ -762,77 +677,6 @@ input {
     color: #287f37
 }
 
-
-.exp-footer {
-    background: #b4bb72; 
-}
-
-.main-footer {
-    display: inline-block; 
-    width: 100%;
-}
-
-@media (min-width: 40rem) {
-    .main-footer {
-        display: inline-block; 
-        width: 100%;
-        margin: .6rem 0 .6rem 0;
-    }
-}
-
-.nav-footer {
-    text-align: center;
-}
-
-.soc-site {
-    list-style: none;
-    text-decoration: none;
-    padding: .15rem .63rem;
- }
-
-@media (min-width: 40rem) {
-    .soc-site {
-        list-style: none;
-        text-decoration: none;
-        padding: 0 .63rem;
-    }
-}
-
-.soc-sites {  
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-@media (min-width: 40rem) {  
-    .soc-sites {
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-.soc-sites a {
-    text-decoration: none;
-    color: black;
-}
-
-@media (min-width: 40rem) {
-    .soc-sites a {
-        text-decoration: none;
-        color: black;
-    }
-}
-
-.signup-title {
-    text-align: center;
-    font-size: 1.8rem;
-    color: #ff5454;
-}
 
 .signup-form {
     padding: 1rem;
@@ -883,15 +727,20 @@ input {
 }
 
 .signup-form input[type="checkbox"]:checked {
-    background: #2ddf5c;
-    border: #0e4f1f;
+    background: #287f37;
+    border: #287f37;
 }
 
 .signup-form input.invalid,
 .signup-form select.invalid,
 .signup-form :invalid {
-    border-color: red !important;
-    background: #faacac;
+    border-color: #287f37 !important;
+    background: #b4bb72;
+}
+
+#link__blog {
+    color: #b4bb72;
+    text-decoration: none;
 }
 
 .signup-form button[type="submit"] {
@@ -903,6 +752,71 @@ input {
     .signup-form {
         margin: auto;
         width: 25rem;
+    }
+}
+
+
+/* ********** FOOTER *********** */
+.exp-footer { 
+    background: #b4bb72; 
+}  
+
+.main-footer {
+    display: inline-block; 
+    width: 100%;
+}
+
+.nav-footer {  
+    text-align: center;
+}
+
+.soc-sites {  
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.soc-site {
+    list-style: none;
+    text-decoration: none;
+    padding: .15rem .63rem;
+ }
+
+.soc-sites a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+@media (min-width: 40rem) {
+    .main-footer {
+        display: inline-block; 
+        width: 100%;
+        margin: .6rem 0 .6rem 0;
+    }
+
+    .soc-sites {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soc-site {
+        list-style: none;
+        text-decoration: none;
+        padding: 0 .63rem;
+    }
+
+    .soc-sites a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.15rem;
+        font-weight: bold;
     }
 }
 
