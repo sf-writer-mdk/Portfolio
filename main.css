@@ -169,6 +169,7 @@ body {
     padding: 2px;
 } 
 
+
 @media (min-width: 40rem) {
     .main-nav__item {
         /* display: inline-block; */
@@ -210,7 +211,11 @@ body {
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: #287f37;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
+
 
 .main-nav__item--cta a {
     color: black;
@@ -346,9 +351,6 @@ h1 {
 
 
 
-    
-    
-
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -393,7 +395,6 @@ h1 {
 
 
 .about {
-    /* width: 100%; */
     height: 14.4rem;
     font-family: 'Montserrat', sans-serif;
     background:#b4bb72;
@@ -402,11 +403,11 @@ h1 {
 
 .about h1 {
         color: black;
+        margin: 0 0 2.5rem 0;
     }
 }
 
 .education {
-    /* width: 100%; */
     height: 12.5rem;
     font-family: 'Montserrat', sans-serif;
     background: black;
@@ -415,6 +416,7 @@ h1 {
 
 .edu_h1 {
     color: #287f37;
+    margin: 1.8rem 0 2.5rem 0;
 }
 
 .edu_h5 {
@@ -426,17 +428,24 @@ h1 {
     text-decoration: none;
 }
 
+.edu_anchor:hover,
+.edu_anchor:active {
+    color: #b4bb72;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
 .classes {
-    /* width: 100%; */
     height: auto;
     font-family: 'Montserrat', sans-serif;
     background: #b4bb72;
     padding-top: 1.6rem;
-    padding-bottom: 3rem;
 }
 
 .classes h1 {
     color: black;
+    margin: 0 0 2.5rem 0;
 }
 
 .classes a {
@@ -444,6 +453,19 @@ h1 {
     text-decoration: none;
     color: black;
 }
+
+.last__class {
+    margin: 0 0 2.5rem 0;
+}
+
+.classes a:hover,
+.classes a:active {
+    color: #287f37;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
 
 .projects {
     /* width: 100%; */
@@ -455,6 +477,7 @@ h1 {
 
 .projects h1 {
     color: #287f37;
+    margin: 0 0 2.8rem 0;
 }
 
 .pro-desc {
@@ -512,12 +535,22 @@ h1 {
     height: auto;
     font-family: 'Montserrat', sans-serif;
     background: #b4bb72;
-    padding-top: 1.6rem;
+    padding: 1rem 0 1rem 0;
 }
 
 .technologies h1 {
     color: black;
+    margin: 0 0 2.1rem 0;
   }
+
+  .content {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .text {
+    font-weight: bold;
+  }
+
 
   /*using Flexbox for row1 and column1 - column1 is
   good for all columns/items in row1*/
@@ -653,10 +686,23 @@ h1 {
 }
 
 
+/* .icons .content:hover { opacity:1; }      
+.icons .content .text {
+height:0;
+opacity:1;
+transition-delay: 0s;
+transition-duration: 0.4s;
+}
+.icons .content:hover .text {
+opacity:1;
+transform: translateY(250px);
+-webkit-transform: translateY(250px);
+} */
+
+
 
 
 .contact {
-    /* width: 100%; */
     height: 40.6rem;
     font-family: 'Montserrat', sans-serif;
     background: black;
@@ -665,7 +711,7 @@ h1 {
 
 .contact h1 {
     color: #287f37;
-    padding-bottom: 1.6rem;
+    margin: 0 0 2.1rem 0;
 }
 
 label,
