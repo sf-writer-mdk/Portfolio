@@ -295,8 +295,8 @@ h1 {
 
 
 .webdev {
-    /* background-image: url("rain.png"); */
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("rain.png");
+    background-image: url("rain.png");
+    /* background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("rain.png"); */
     background-size: cover;
     background-repeat: no-repeat;
     height: 34.7rem; 
