@@ -22,7 +22,7 @@ body {
 
 .header {
     background-color: #b4bb72;
-    padding: .5rempx 1rem;
+    padding: .5rem 1rem;
     /* position: fixed; */
     top: 0;
     margin: 0;
@@ -57,9 +57,10 @@ body {
 
         .header.active {
             background:black;
-            -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-            -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+            -webkit-transition: all ease-out .75s;
+            -moz-transition: all ease-out .75s;
+            -o-transition: all ease-out .75s;
+            transition: all ease-out .75s;
 
         }
 }
@@ -121,11 +122,9 @@ body {
 .main-nav {
     /* display: inline-block; */
     text-align: center;
-    /* width: calc(100% - 61px); */
     vertical-align: middle;
     display: flex;
-    /*position: relative;
-    top: 175px;*/
+    /* position: relative; */
 }
 
 @media (min-width: 40rem) {
@@ -162,7 +161,7 @@ body {
         font-family: sans-serif;
         display: flex;
         flex-direction: row;
-        align-items: right;
+        align-items: center;
         justify-content: space-between; 
     }
 }
@@ -332,7 +331,7 @@ h1 {
 }
 
 .webdev h1 {
-    color:#287f37;
+    color:#b4bb72;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -355,7 +354,7 @@ h1 {
 
 @media (min-width: 40rem) {
     .webdev h1 {
-        color:#287f37;
+        color:#b4bb72;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         margin: 2.8rem auto;
