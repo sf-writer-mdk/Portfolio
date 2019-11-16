@@ -319,7 +319,7 @@ h1 {
 @media (min-width: 40rem) {
     .webdev {
         /* background-image: url("rain.png"); */
-        background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url("rain.png");
+        background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("rain.png");
         background-size: auto;
         /* background-repeat: no-repeat; */
         /* width: 100%;  */
