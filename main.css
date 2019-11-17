@@ -23,7 +23,7 @@ body {
 .header {
     background-color: #b4bb72;
     padding: .5rem 1rem;
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     margin: 0;
     width: 100%;
@@ -31,10 +31,19 @@ body {
     box-sizing: border-box;
     left: 0;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.header.actives {
+    background:black;
+    -webkit-transition: all ease-out .75s;
+    -moz-transition: all ease-out .75s;
+    -o-transition: all ease-out .75s;
+    transition: all ease-out .75s;
+
 }
 
 
@@ -199,6 +208,11 @@ body {
     font-size: 1.15rem;
 }
 
+.main-nav__item>a.active-scrolls { 
+    background: none;
+    color: #287f37;
+}
+
 @media (min-width: 40rem) {
     .main-nav__item a {
         /*margin: 0 16px;*/
@@ -233,6 +247,11 @@ body {
     background: #287f37;
     padding: .5rem 1rem;
     border-radius: .5rem;
+}
+
+.main-nav__item--cta>a.active-contacts { 
+    background: #b4bb72;
+    color: black;
 }
 
 @media (min-width: 40rem) {
@@ -294,6 +313,10 @@ h1 {
 */
 
 
+.background { 
+    margin-top: 16rem;
+}
+
 .webdev {
     /* background-image: url("rain.png"); */
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("rain.png");
@@ -311,12 +334,12 @@ h1 {
 }
 
 
-.background { 
-   /* background: rgba(0, 0, 0, 0.7); */
-    
-}
 
 @media (min-width: 40rem) {
+    .background { 
+        margin-top: auto;
+     }
+    
     .webdev {
         /* background-image: url("rain.png"); */
         background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("rain.png");
