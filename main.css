@@ -19,7 +19,7 @@ body {
 
 @media (min-width: 40rem) {
     body {
-        /* font-family: 'Times New Roman', Times, serif; */
+        font-family: 'Times New Roman', Times, serif; 
         margin: 0; 
         
         padding-top: 7.5rem;
@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-    background-color: #b4bb72;
+    background-color: #BAC567;
     padding: .5rem 1rem;
     position: fixed;
     top: 0;
@@ -44,19 +44,19 @@ body {
     justify-content: space-evenly;
 }
 
-.header.actives {
+/* .header.actives {
     background:black;
     -webkit-transition: all ease-out .75s;
     -moz-transition: all ease-out .75s;
     -o-transition: all ease-out .75s;
     transition: all ease-out .75s;
 
-}
+} */
 
 
 @media (min-width: 40rem) {
     .header {
-        background-color: #b4bb72;
+        background-color: #BAC567;
         padding: .5rem 1rem;
         position: fixed;
         top: 0;
@@ -71,18 +71,18 @@ body {
         /* width: 100%; */
         }
 
-        .header.active {
+        /* .header.active {
             background:black;
             -webkit-transition: all ease-out .75s;
             -moz-transition: all ease-out .75s;
             -o-transition: all ease-out .75s;
             transition: all ease-out .75s;
 
-        }
+        } */
 }
 
 /*.header > div*/
- .logo {
+ /*.logo {
     /* display: block; */
     /* vertical-align: middle; */
      /* position: fixed;   */
@@ -97,9 +97,9 @@ body {
     flex-wrap: wrap;
     align-items: left;
     justify-content: space-between; */
-}
+/*}*/
 
- @media (min-width: 40rem) {
+ /*@media (min-width: 40rem) {
     .logo {
         /* display: inline-block; */
         /* vertical-align: middle;  */
@@ -114,8 +114,8 @@ body {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between; */
-     } 
-}  
+     /*} 
+}*/  
 
  .logo-img {
    background: url(myProject_initial_working_copy_Copy.png) no-repeat top left;
@@ -214,7 +214,7 @@ body {
 
 .main-nav__item a {
     /*margin: 0 16px;*/
-    background: #b4bb72;
+    background: #BAC567;
     color: black;
     font-weight: bold;
     padding: .019rem 0;
@@ -230,7 +230,7 @@ body {
 @media (min-width: 40rem) {
     .main-nav__item a {
         /*margin: 0 16px;*/
-        background: #b4bb72;
+        background: #BAC567;
         color: black;
         font-weight: bold;
         padding: .019rem 0;
